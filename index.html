@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Unit Converter</h1>
+    <div class="converter">
+      <input type="number" id="inputValue" placeholder="Enter value">
+      <select id="fromUnit">
+        <option value="cm">cm</option>
+        <option value="inch">inch</option>
+        <option value="meter">meter</option>
+        <!-- Add more unit options as needed -->
+      </select>
+      <select id="toUnit">
+        <option value="cm">cm</option>
+        <option value="inch">inch</option>
+        <option value="meter">meter</option>
+        <!-- Add more unit options as needed -->
+      </select>
+      <button onclick="convert()">Convert</button>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
